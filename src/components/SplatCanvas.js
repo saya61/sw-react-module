@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
-import {getViewMatrix, getProjectionMatrix, cameras} from './main';
+import { cameras, getViewMatrix, getProjectionMatrix } from '../components/main';
 
 function SplatCanvas() {
     const canvasRef = useRef(null);
